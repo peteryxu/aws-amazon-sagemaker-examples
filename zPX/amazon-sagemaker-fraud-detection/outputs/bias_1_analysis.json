@@ -1,0 +1,57 @@
+{
+    "version": "1.0",
+    "pre_training_bias_metrics": {
+        "label": "fraud",
+        "facets": {
+            "customer_gender_female": [
+                {
+                    "value_or_threshold": "1",
+                    "metrics": [
+                        {
+                            "name": "CDDL",
+                            "description": "Conditional Demographic Disparity in Labels (CDDL)",
+                            "value": null,
+                            "error": "Group variable is empty or not provided"
+                        },
+                        {
+                            "name": "CI",
+                            "description": "Class Imbalance (CI)",
+                            "value": 0.408
+                        },
+                        {
+                            "name": "DPL",
+                            "description": "Difference in Positive Proportions in Labels (DPL)",
+                            "value": -0.01831234643734647
+                        },
+                        {
+                            "name": "JS",
+                            "description": "Jensen-Shannon Divergence (JS)",
+                            "value": 0.001873604519256008
+                        },
+                        {
+                            "name": "KL",
+                            "description": "Kullback-Liebler Divergence (KL)",
+                            "value": 0.00871905154975906
+                        },
+                        {
+                            "name": "KS",
+                            "description": "Kolmogorov-Smirnov Distance (KS)",
+                            "value": 0.01831234643734647
+                        },
+                        {
+                            "name": "LP",
+                            "description": "L-p Norm (LP)",
+                            "value": 0.025897568690569986
+                        },
+                        {
+                            "name": "TVD",
+                            "description": "Total Variation Distance (TVD)",
+                            "value": 0.018312346437346454
+                        }
+                    ]
+                }
+            ]
+        },
+        "label_value_or_threshold": "0"
+    }
+}
